@@ -22,7 +22,6 @@ def turn(board)
     puts "Invalid move, please select a new one."
     turn(board)
   end
-  #puts "Invalid move, please select a new one."
   move(board, index)
   display_board(board)
 end
